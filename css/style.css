@@ -24,13 +24,97 @@ body {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
+  color: rgb(127, 51, 51); 
+  padding: 10px 20px; 
+  background: linear-gradient(to right, #ffd1dc, #ffebb6, #d7ffd9); 
+  border-radius: 8px; 
+  display: inline-block; 
 }
+
 
 header h2 {
   font-size: 1.5em;
   color: gray;
   margin-bottom: 20px;
 }
+
+.presentacion {
+  text-align: center; 
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: linear-gradient(to right, #f8e8e8, #fdf2e9); 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: backInUp 1s ease-in-out;
+}
+
+.presentacion h2 {
+  font-size: 2.5rem; 
+  color: #b45f06; 
+  margin-bottom: 15px;
+}
+
+.presentacion .nombre {
+  font-family: 'Brush Script MT', cursive; 
+  color: #e97777; 
+}
+
+.presentacion p {
+  font-size: 1.2rem; 
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.presentacion strong {
+  color: #b45f06; 
+}
+
+header .logo {
+  max-width: 150px; 
+  height: auto;
+  margin-bottom: 10px; 
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff; 
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff9800; 
+}
+
+footer p {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
 
 /*Barra navegacion*/
 
@@ -298,16 +382,16 @@ body {
   }
 
   .video-container {
-    flex-direction: column;  /* Cambia a una columna en pantallas pequeñas */
-    gap: 10px;  /* Reduce el espacio entre los elementos */
+    flex-direction: column; 
+    gap: 10px;  
   }
 
   .imgizquierda, .imgderecha {
-    max-width: 80%;  /* Ajusta las imágenes a un porcentaje más pequeño */
+    max-width: 80%;  
   }
 
   video {
-    max-width: 100%;  /* Hace que el video ocupe todo el ancho disponible */
+    max-width: 100%;  
   }
 
   .carrusel {
@@ -341,5 +425,21 @@ body {
 
   .contacto p {
     font-size: 0.9em;
+  }
+}
+
+
+@keyframes backInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) scale(0.7);
+  }
+  80% {
+    opacity: 0.7;
+    transform: translateY(-10%) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
