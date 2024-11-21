@@ -92,20 +92,28 @@ main p {
 
 .video-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  gap: 20px;  
+  flex-wrap: wrap;  
+  max-width: 100%;  
+  margin: auto;
+  width: 100%;  
 }
 
 
-.imgizquierda {
-  width: 300px; 
-  margin: 0 10px; 
+.imgizquierda, .imgderecha {
+  width: 100%;  
+  max-width: 200px;  
+  height: auto;  
+  object-fit: cover;  
+  border-radius: 8px;  
 }
 
-.imgderecha {
-  width: 300px; 
-  margin: 0 10px; 
+video {
+  width: 100%;  
+  max-width: 600px;  
+  height: auto;  
 }
 
 .carrusel{
@@ -290,18 +298,30 @@ body {
   }
 
   .video-container {
-    flex-direction: column;
+    flex-direction: column;  /* Cambia a una columna en pantallas pequeñas */
+    gap: 10px;  /* Reduce el espacio entre los elementos */
   }
 
   .imgizquierda, .imgderecha {
-    width: 100%;
-    margin-bottom: 15px;
+    max-width: 80%;  /* Ajusta las imágenes a un porcentaje más pequeño */
+  }
+
+  video {
+    max-width: 100%;  /* Hace que el video ocupe todo el ancho disponible */
   }
 
   .carrusel {
     width: 100%;
     max-width: 100%;
   }
+
+  .carousel-item {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    max-height: 400px; 
+  }
+  
 
   .contenedor {
     flex-direction: column;
