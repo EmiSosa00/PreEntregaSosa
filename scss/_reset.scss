@@ -1,0 +1,41 @@
+$colorletra:#000000;
+$ablack:#000000cc;
+$rojo:#7f3333;
+$gris:#808080;
+$blanco:#ffffff;
+$ablanco:#ffffffe6;
+$blanco2:#f9f9f9;
+$colorhover:#ffffff33;
+$colorpresen:#0000001a;
+$h2presen:#b45f06;
+$colornombre:#e97777;
+$presenp:#333;
+$colorfoot: #ff9800;
+$azul: #007bff;
+$grad1:#ffd1dc;
+$grad2: #ffebb6;
+$grad3: #d7ffd9;
+$grad4: #f8e8e8;
+$grad5: #fdf2e9;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-image: url(../imgs/fondopag.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: $colorletra;
+    
+}

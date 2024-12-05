@@ -1,0 +1,239 @@
+main {
+    max-width: 90%; 
+    width: 90%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: $ablanco; 
+}
+
+main h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: $presenp; 
+}
+  
+  
+main p {
+    margin-bottom: 15px;
+    color: $presenp; 
+}
+
+.presentacion{
+    text-align: center; 
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(to right, $grad4, $grad5); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px $ablack;
+    animation: backInUp 1s ease-in-out;
+}
+  
+.presentacion h2{
+    font-size: 2.5rem; 
+    color: $h2presen; 
+    margin-bottom: 15px;
+}
+  
+.presentacion .nombre{
+    font-family: 'Brush Script MT', cursive; 
+    color: $colornombre; 
+}
+  
+.presentacion p{
+    font-size: 1.2rem; 
+    color: $presenp;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+  
+.presentacion strong{
+    color: $h2presen; 
+}
+  
+  
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    flex-wrap: wrap;  
+    max-width: 100%;  
+    margin: auto;
+    width: 100%;  
+}
+  
+  
+.imgizquierda, .imgderecha {
+    width: 100%;  
+    max-width: 200px;  
+    height: auto;  
+    object-fit: cover;  
+    border-radius: 8px;  
+}
+  
+video {
+    width: 100%;  
+    max-width: 600px;  
+    height: auto;  
+}
+
+.carrusel{
+    width: 700px;
+    margin: 10px auto;
+    border: 3px $colorletra solid;
+}
+    
+.carousel-item {
+      width: 700px;
+      height: 500px;
+}
+    
+h5{
+      background-color: $presenp;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+  
+  
+.personal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.imgpersonal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+  
+.imgpersonal img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.imgpersonal p {
+    font-size: 1em;
+    color: $presenp;
+}
+  
+  
+.imglogo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.imglogo img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.imglogo p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: $presenp;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $blanco2;
+    color: $presenp;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.pregfrec {
+    max-width: 800px;
+    width: 100%;
+    background-color: $blanco;
+    padding: 20px;
+    border-radius: 8px;
+}
+  
+.pregfrec h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+  
+.pregunta {
+    margin-bottom: 15px;
+    border-bottom: 1px solid $blanco2;
+}
+  
+.pregunta-titulo {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px;
+    color: $azul;
+    outline: none;
+    font-weight: bold;
+}
+  
+.respuesta {
+    padding: 0 15px 15px;
+    font-size: 1em;
+    color: $colorhover;
+}
+
+.contactos {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+.fila {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+.contacto {
+    flex: 1;
+    margin: 0 10px;
+}
+  
+.contacto img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.contacto p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: $presenp;
+}
+  
+.mapa img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+  
+.mapa p {
+    font-size: 1.1em;
+    color: $presenp;
+}
