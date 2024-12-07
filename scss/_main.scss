@@ -237,3 +237,47 @@ body {
     font-size: 1.1em;
     color: $presenp;
 }
+
+.form-contacto {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: $blanco2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px $ablack;
+}
+
+.form-contacto h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-contacto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.form-contacto input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid $gris;
+}
+
+.form-contacto button {
+    width: 100%;
+    padding: 10px;
+    background-color: $formcolor; 
+    color: $blanco;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.form-contacto button:hover {
+    background-color: $formbutton; 
+}

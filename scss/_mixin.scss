@@ -1,0 +1,15 @@
+@mixin border-radius($radius: 10px) {
+  border-radius: $radius;
+}
+
+header {
+  @include border-radius(20px);
+}
+
+footer {
+  @include border-radius(10px);
+}
+
+.imgizquierda, .imgderecha {
+  @include border-radius(10px);
+}
