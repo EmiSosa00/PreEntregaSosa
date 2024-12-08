@@ -19,6 +19,9 @@ main p {
     color: $presenp; 
 }
 
+
+/*En esta zona se encuentra la pagina "Inicio"*/
+
 .presentacion{
     text-align: center; 
     margin: 20px auto;
@@ -79,6 +82,9 @@ video {
     height: auto;  
 }
 
+
+/*En esta zona se encuentra la pagina "Productos"*/
+
 .carrusel{
     width: 700px;
     margin: 10px auto;
@@ -93,6 +99,9 @@ video {
 h5{
       background-color: $presenp;
 }
+
+
+/*Aqui se encuentra la pagina "Nosotros"*/
 
 .contenedor {
     display: flex;
@@ -150,6 +159,9 @@ h5{
     color: $presenp;
 }
 
+
+/*En esta parte, se encuentra "Preguntas frecuentes"*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: $blanco2;
@@ -195,6 +207,9 @@ body {
     font-size: 1em;
     color: $colorhover;
 }
+
+
+/*Y en esta parte estan los "Contactos"*/
 
 .contactos {
     max-width: 800px;
